@@ -1,0 +1,1 @@
+window.SLB&&SLB.has_child("View.extend_template_tag_handler")&&SLB.View.extend_template_tag_handler("item",{render:function(e,t,i){var r="get_"+t.get_prop(),_=this.util.is_method(e,r)?e[r]():e.get_attribute(t.get_prop(),"");return this.util.is_promise(_)?_.done((function(e){i.resolve(e)})):i.resolve(_),i.promise()}});
