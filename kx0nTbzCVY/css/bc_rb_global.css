@@ -1,0 +1,28 @@
+.bc_rb_swf_banner {
+    position: relative;
+}
+
+#popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Yep! */
+}
+
+embed {
+    margin-bottom: 0 !important;
+}
+.bc_rb_close {
+    cursor: pointer;
+}
+
+.bc_rb_close img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: -20px -20px 0 0;
+}
+
+.bc_rb_hide {
+    display: none;
+}
